@@ -37,3 +37,51 @@
         body{
             background-color:lightpink;
         }
+
+        @media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        overflow-x: hidden;
+    }
+
+    .my-image {
+        width: 130px;
+        height: 130px;
+        margin: 15px auto;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    h2 {
+        font-size: 21px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    img {
+        width: 100%;
+        max-width: 606.53px;
+        height: auto;
+    }
+
+    #my-birthday {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: auto;
+    }
+
+    a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 15px 0;
+    }
+}
